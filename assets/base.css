@@ -76,17 +76,7 @@ body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
   Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 15px;
-}
-
-body button {
-  background-color: #ffffff;
-  color: var(--vt-c-text-light-2);
-}
-
-.dark-mode body button {
-  background-color: var(--vt-c-black);
-  color: var(--vt-c-text-dark-1);
-}
+} 
 
 .dark-mode body {
   background-color: var(--vt-c-black-soft);

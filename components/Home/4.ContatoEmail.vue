@@ -199,7 +199,7 @@ input:hover {
 button {
     width: 110px;
     border: solid 3px #07e4e110;
-    background: #07e4e1dd;
+    background: #07e4e1;
     height: 36px;
     transition: all .3s linear;
     border-radius: 9px;

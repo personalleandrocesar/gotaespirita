@@ -649,7 +649,7 @@ const navD = ref(state.value === 4)
 
 .whats .icon,
 .color .icon {
-    color: #02d1d890;
+    color: #02d1d8;
     zoom: 1;
 }
 </style>
