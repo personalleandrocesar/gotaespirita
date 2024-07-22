@@ -63,11 +63,11 @@ const icons = [
 .icon {
     zoom: 1.5;
     transition: all .4s linear;
-    color: #02d1d8;
+    color: #07e4e1;
 }
 
 .linear:hover a .name{
-    color: #02d1d8;
+    color: #07e4e1;
 }
 .social:hover a .icon{
     color: #52F4F0;
