@@ -316,10 +316,10 @@ function moveItemDown(index) {
 .users-full {
     width: 62%;
     z-index: 1;
-    background-color: #02d1d890;
+    background-color: #07e4e190;
     padding: 10px;
     border-radius: 8px;
-    border: solid 3px #02d1d8;
+    border: solid 3px #07e4e1;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -341,7 +341,7 @@ function moveItemDown(index) {
 }
 
 .users-details-box {
-    border: solid 3px #02d1d890;
+    border: solid 3px #07e4e190;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -351,20 +351,20 @@ function moveItemDown(index) {
     flex-wrap: wrap;
     z-index: 1;
     width: 185px;
-    background-color: #02d1d850;
+    background-color: #07e4e150;
     height: 185px;
     border-radius: 100%;
     text-align: center;
 }
 
 .users-details-box:nth-child(1) {
-    border: solid 3px #02d1d890;
-    background-color: #02d1d890;
+    border: solid 3px #07e4e190;
+    background-color: #07e4e190;
 }
 
 .users-details-box:nth-child(2) {
-    border: solid 3px #02d1d890;
-    background-color: #02d1d820;
+    border: solid 3px #07e4e190;
+    background-color: #07e4e120;
 }
 
 textarea#story {
@@ -374,15 +374,15 @@ textarea#story {
 
 .form-cliente {
     border-radius: 50%;
-    border: solid 3px #02d1d8;
+    border: solid 3px #07e4e1;
 }
 
 .cliente {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border: solid 3px #02d1d8;
-    color: #02d1d8;
+    border: solid 3px #07e4e1;
+    color: #07e4e1;
 }
 
 
@@ -422,7 +422,7 @@ textarea#story {
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    color: #02d1d8;
+    color: #07e4e1;
 }
 
 .button {
@@ -432,7 +432,7 @@ textarea#story {
     padding-top: 4px;
     border: solid 2px #fff;
     border-radius: 8px;
-    background-color: #02d1d850;
+    background-color: #07e4e150;
     cursor: pointer;
 }
 
@@ -490,14 +490,14 @@ textarea#story {
 
 .others-full {
     z-index: 1;
-    background-color: #02d1d850;
+    background-color: #07e4e150;
 }
 
 .others-details {
     margin: 0 .5%;
     z-index: 1;
-    background-color: #02d1d830;
-    border: solid 3px #02d1d840;
+    background-color: #07e4e130;
+    border: solid 3px #07e4e140;
     border-radius: 8px;
 }
 
@@ -533,14 +533,14 @@ td {
 }
 
 tr:nth-child(2n -1) {
-    background-color: #02d1d830;
+    background-color: #07e4e130;
     border-radius: 6px;
 }
 
 th {
     position: sticky;
     top: 0px;
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
     font-weight: 800;
 }
@@ -564,7 +564,7 @@ th {
     height: 46px;
     width: 46px;
     color: #718096;
-    box-shadow: 0px 7px 20px #02d1d8;
+    box-shadow: 0px 7px 20px #07e4e1;
     border-radius: 8px;
     margin: 1rem;
     z-index: 10;
@@ -574,7 +574,7 @@ th {
     height: 46px;
     width: 46px;
     border-radius: 8px;
-    border: #02d1d8 2px solid;
+    border: #07e4e1 2px solid;
     z-index: 100;
     opacity: 1;
 }
@@ -591,7 +591,7 @@ th {
 .name {
     font-size: 1.6rem;
     margin-left: .1rem;
-    color: #02d1d8;
+    color: #07e4e1;
     font-family: 'gagalin';
     font-size: 2rem;
     letter-spacing: 0px;
@@ -612,14 +612,14 @@ th {
     transition: all .4s linear;
     font-size: 1.2rem;
     margin-left: .1rem;
-    color: #02d1d899;
+    color: #07e4e199;
     font-family: 'gagalin';
     letter-spacing: 0px;
     margin: 0rem 0rem 0rem 0rem;
     width: 100%;
     padding: 12px;
-    color: #02d1d870;
-    background-color: #02d1d860;
+    color: #07e4e170;
+    background-color: #07e4e160;
     border-bottom: solid 2px #fff;
     cursor: pointer;
 }
@@ -630,22 +630,22 @@ th {
 }
 
 .sections a:hover {
-    color: #02d1d8;
-    border-bottom: solid 2px #02d1d8;
+    color: #07e4e1;
+    border-bottom: solid 2px #07e4e1;
 }
 
 .sections .activerr {
     padding: 12px;
     color: #fff;
-    background-color: #02d1d8;
-    border-bottom: solid 2px #02d1d8;
+    background-color: #07e4e1;
+    border-bottom: solid 2px #07e4e1;
 }
 
 .sections .activerr:hover {
     padding: 12px;
     color: #fff;
-    background-color: #02d1d8;
-    border-bottom: solid 2px #02d1d8;
+    background-color: #07e4e1;
+    border-bottom: solid 2px #07e4e1;
 }
 
 main {
@@ -664,7 +664,7 @@ main {
     height: 40px;
     width: 40px;
     color: #718096;
-    box-shadow: 1px 1px 15px #02d1d850;
+    box-shadow: 1px 1px 15px #07e4e150;
     transition: all 0.2s ease-in-out 0s;
     bottom: 3.5rem;
     right: 1.5rem;
@@ -674,9 +674,9 @@ main {
 }
 
 .whats:hover {
-    background-color: #02d1d810;
-    color: #02d1d880;
-    box-shadow: 1px 1px 15px #02d1d880;
+    background-color: #07e4e110;
+    color: #07e4e180;
+    box-shadow: 1px 1px 15px #07e4e180;
     z-index: 100;
 }
 
@@ -700,8 +700,8 @@ main {
 .add-client {
     margin: .5rem auto;
     transition: all .4s linear;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d810;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e110;
     border-radius: 8px;
     text-align: left;
     color: #718096;
@@ -720,8 +720,8 @@ main {
 .input {
     margin: .5rem auto;
     transition: all .4s linear;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d810;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e110;
     border-radius: 8px;
     text-align: left;
     color: #718096;
@@ -738,14 +738,14 @@ main {
 }
 
 .input:hover {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 input {
     margin: .5rem auto;
     transition: all .4s linear;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d810;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e110;
     border-radius: 8px;
     text-align: left;
     color: #718096;
@@ -762,7 +762,7 @@ input {
 
 input::placeholder {
     color: #71809690;
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 .inputs div h4 {
@@ -770,27 +770,27 @@ input::placeholder {
 }
 
 input:focus {
-    background-color: #02d1d810;
-    border-color: #02d1d880;
+    background-color: #07e4e110;
+    border-color: #07e4e180;
     color: #718096;
 }
 
 input:focus-visible {
-    background-color: #02d1d810;
-    border: solid 1px #02d1d8;
+    background-color: #07e4e110;
+    border: solid 1px #07e4e1;
     color: #718096;
 }
 
 input:active {
-    background-color: #02d1d810;
-    border-color: #02d1d880;
+    background-color: #07e4e110;
+    border-color: #07e4e180;
     color: #718096;
 }
 
 
 
 input:hover {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 h4 {
@@ -809,8 +809,8 @@ h4:nth-child(1) {
 
 .login {
     transition: all .4s linear;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d810;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e110;
     border-radius: 8px;
     cursor: pointer;
     width: 160px;
@@ -835,8 +835,8 @@ h4:nth-child(1) {
 
 .login:hover {
     cursor: pointer;
-    background-color: #02d1d810;
-    color: #02d1d880;
+    background-color: #07e4e110;
+    color: #07e4e180;
 
     padding-inline: 16px;
     padding-top: 7px;
@@ -855,7 +855,7 @@ h4:nth-child(1) {
     justify-content: center;
     align-items: center;
     margin: 10px 20px 20px 20px;
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
     padding: 15px;
     border-radius: 8px;
@@ -865,7 +865,7 @@ h4:nth-child(1) {
     left: 50%;
     margin-left: -40%;
     font-weight: 900;
-    border: solid 1px #02d1d810;
+    border: solid 1px #07e4e110;
     z-index: 10000;
 }
 
@@ -878,20 +878,20 @@ h4:nth-child(1) {
 .button-pop {
     margin: 7px auto 0 auto;
     transition: all .4s linear;
-    border: solid 1px #02d1d8;
-    box-shadow: 0 0px 5px #02d1d810;
+    border: solid 1px #07e4e1;
+    box-shadow: 0 0px 5px #07e4e110;
     border-radius: 8px;
     cursor: pointer;
     width: 50%;
     text-align: center;
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
     border: solid 1px #fff;
 }
 
 .button-pop:hover {
     background-color: #fff;
-    border: solid 1px #02d1d810;
-    color: #02d1d8;
+    border: solid 1px #07e4e110;
+    color: #07e4e1;
 }
 </style>

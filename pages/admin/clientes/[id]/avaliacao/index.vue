@@ -309,14 +309,14 @@ useHead({
     z-index: 1;
     height: 40px;
     font-weight: bolder;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
-    border-bottom: solid 1px #02d1d840;
-    border-right: solid 1px #02d1d840;
+    border-bottom: solid 1px #07e4e140;
+    border-right: solid 1px #07e4e140;
 }
 
 .subscriberOk {
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
     text-shadow: 2px 2px 2px #111;
     display: flex;
@@ -333,7 +333,7 @@ useHead({
     color: #fff;
     margin-left: -40%;
     font-weight: 900;
-    border: solid 1px #02d1d810;
+    border: solid 1px #07e4e110;
     z-index: 10000;
 }
 
@@ -342,11 +342,11 @@ useHead({
 }
 
 .clients span {
-    border: 1px solid #02d1d890;
+    border: 1px solid #07e4e190;
     padding: 3px 6px;
     border-radius: 8px;
-    color: #02d1d8;
-    background-color: #02d1d830;
+    color: #07e4e1;
+    background-color: #07e4e130;
     margin-left: 3px;
 }
 
@@ -362,7 +362,7 @@ useHead({
 .notifications:hover {
     padding: 4px 5px;
     border-radius: 8px;
-    color: #02d1d8;
+    color: #07e4e1;
     background-color: #fff;
 }
 
@@ -379,10 +379,10 @@ useHead({
     height: 35px;
     font-weight: bolder;
     margin-bottom: 1rem;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
-    border-bottom: solid 1px #02d1d840;
-    border-right: solid 1px #02d1d840;
+    border-bottom: solid 1px #07e4e140;
+    border-right: solid 1px #07e4e140;
 }
 
 .reward {
@@ -400,11 +400,11 @@ useHead({
 }
 
 .users-conf span {
-    border: 1px solid #02d1d890;
+    border: 1px solid #07e4e190;
     padding: 8px;
     border-radius: 8px;
-    color: #02d1d8;
-    background-color: #02d1d830;
+    color: #07e4e1;
+    background-color: #07e4e130;
     margin-left: 3px;
 }
 
@@ -420,7 +420,7 @@ useHead({
 }
 
 .actions a {
-    border: solid 1px #02d1d810;
+    border: solid 1px #07e4e110;
     background-color: transparent;
     padding: 4px 35px;
     margin: 2.5px 10px;
@@ -431,20 +431,20 @@ useHead({
 
 
 .actions a:hover {
-    border: solid 1px #02d1d860;
-    background-color: #02d1d860;
+    border: solid 1px #07e4e160;
+    background-color: #07e4e160;
 }
 
 .actions a.router-link-exact-active {
-    background: #02d1d890;
-    border: solid 1px #02d1d8;
+    background: #07e4e190;
+    border: solid 1px #07e4e1;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
 
 .actions-button a.router-link-exact-active:hover {
-    background: #02d1d890;
+    background: #07e4e190;
     ;
     color: #fff;
     text-decoration: none;
@@ -453,7 +453,7 @@ useHead({
 
 .actions-button a.router-link-exact-active:hover::after {
     background-color: var(--color-background);
-    color: #02d1d8;
+    color: #07e4e1;
     text-decoration: none;
     cursor: pointer;
 }
@@ -468,7 +468,7 @@ useHead({
 }
 
 .reward a {
-    border: solid 1px #02d1d810;
+    border: solid 1px #07e4e110;
     background-color: transparent;
     padding: 4px 15px;
     margin: 2.5px 7px;
@@ -479,20 +479,20 @@ useHead({
 
 
 .reward a:hover {
-    border: solid 1px #02d1d860;
-    background-color: #02d1d860;
+    border: solid 1px #07e4e160;
+    background-color: #07e4e160;
 }
 
 .reward a.router-link-exact-active {
-    background: #02d1d890;
-    border: solid 1px #02d1d8;
+    background: #07e4e190;
+    border: solid 1px #07e4e1;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
 
 .reward-button a.router-link-exact-active:hover {
-    background: #02d1d890;
+    background: #07e4e190;
     ;
     color: #fff;
     text-decoration: none;
@@ -501,7 +501,7 @@ useHead({
 
 .reward-button a.router-link-exact-active:hover::after {
     background-color: var(--color-background);
-    color: #02d1d8;
+    color: #07e4e1;
     text-decoration: none;
     cursor: pointer;
 }
@@ -620,7 +620,7 @@ useHead({
 
 .inputs .terms {
     text-decoration: underline;
-    color: #02d1d8;
+    color: #07e4e1;
     height: 15px;
     cursor: pointer;
 }
@@ -653,7 +653,7 @@ useHead({
 
 input {
     transition: all .4s linear;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     text-align: left;
     width: 160px;
     font-weight: 600;
@@ -680,21 +680,21 @@ input {
 }
 
 input:focus-visible {
-    border: solid 1px #02d1d8;
+    border: solid 1px #07e4e1;
 }
 
 input:active {
-    border-color: #02d1d880;
+    border-color: #07e4e180;
 }
 
 input:hover {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 
 input:focus {
     border: 0 none;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     outline: 0;
 }
 
@@ -732,11 +732,11 @@ h4:nth-child(1) {
 }
 
 .main-div-two .icon {
-    color: #02d1d8;
+    color: #07e4e1;
 }
 
 .square {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
     backdrop-filter: blur(5px);
     overflow-x: auto;
     display: flex;
@@ -745,10 +745,10 @@ h4:nth-child(1) {
     align-items: stretch;
     margin: 2px 4px 4px 0px;
     border-radius: 8px;
-    border: .1px solid #02d1d820;
+    border: .1px solid #07e4e120;
     line-height: 1.4;
     transition: all .4s;
-    border: 2px solid #02d1d810;
+    border: 2px solid #07e4e110;
 }
 
 .square:nth-child(2n+1) {
@@ -768,10 +768,10 @@ h4:nth-child(1) {
 }
 
 .square:hover {
-    background-color: #02d1d830;
+    background-color: #07e4e130;
 
-    border-top: 2px solid #02d1d840;
-    border-bottom: 2px solid #02d1d840;
+    border-top: 2px solid #07e4e140;
+    border-bottom: 2px solid #07e4e140;
 
 }
 
@@ -791,7 +791,7 @@ h4:nth-child(1) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #02d1d8;
+    color: #07e4e1;
 }
 
 .main-div-two h5 {
@@ -799,7 +799,7 @@ h4:nth-child(1) {
 }
 
 .main-div-two a div {
-    border-bottom: 2px solid #02d1d820;
+    border-bottom: 2px solid #07e4e120;
     height: 70px;
     display: flex;
     flex-direction: column;
@@ -824,7 +824,7 @@ h4:nth-child(1) {
     border: 0;
     color: inherit;
     background-color: transparent;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     border-radius: 5px;
     cursor: pointer;
     width: 160px;
@@ -836,25 +836,25 @@ h4:nth-child(1) {
 
 .select:focus {
     border: 0 none;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     outline: 0;
 }
 
 .select:focus-visible {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 .select:active {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 .select:hover {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 .login {
     transition: all .4s linear;
-    border: solid 2px #02d1d8;
+    border: solid 2px #07e4e1;
     cursor: pointer;
     width: 140px;
     text-align: center;
@@ -881,7 +881,7 @@ h4:nth-child(1) {
 
 .login:hover {
     cursor: pointer;
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
 }
 
@@ -905,8 +905,8 @@ h4:nth-child(1) {
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
@@ -925,14 +925,14 @@ h4:nth-child(1) {
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
 .whats .icon,
 .color .icon {
-    color: #02d1d890;
+    color: #07e4e190;
     zoom: 1;
 }
 </style>

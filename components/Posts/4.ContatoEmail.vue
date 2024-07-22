@@ -79,7 +79,7 @@ async function submit() {
         width: 80%;
         left: 50%;
         margin-left: -40%;
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
     text-shadow: 2px 2px 2px #111;
     z-index: 20;
@@ -143,10 +143,10 @@ async function submit() {
     flex-wrap: wrap;
 }
 .linear:hover a .title{
-    color: #02d1d8;
+    color: #07e4e1;
 }
 .linear:hover a .icon{
-    color: #02d1d8;
+    color: #07e4e1;
 }
 .linear:hover a .underline{
     border-bottom: dashed 1px #718096;
@@ -155,8 +155,8 @@ async function submit() {
 input {
   margin: .5rem auto .5rem -2rem;
   transition: all .4s linear;
-  border: solid 1px #02d1d860;
-  box-shadow: 0 0px 5px #02d1d810;
+  border: solid 1px #07e4e160;
+  box-shadow: 0 0px 5px #07e4e110;
   border-radius: 8px;
   text-align: left;
   line-height: 18px;
@@ -178,28 +178,28 @@ input {
 }
 
 input:focus {
-  background-color: #02d1d810;
-  border-color: #02d1d880;
+  background-color: #07e4e110;
+  border-color: #07e4e180;
 }
 
 input:focus-visible {
-  background-color: #02d1d810;
-  border: solid 1px #02d1d8;
+  background-color: #07e4e110;
+  border: solid 1px #07e4e1;
 }
 
 input:active {
-  background-color: #02d1d810;
-  border-color: #02d1d880;
+  background-color: #07e4e110;
+  border-color: #07e4e180;
 }
 
 input:hover {
-  background-color: #02d1d810;
+  background-color: #07e4e110;
 }
 
 button {
     width: 110px;
-    border: solid 3px #02d1d810;
-    background: #02d1d8dd;
+    border: solid 3px #07e4e110;
+    background: #07e4e1dd;
     height: 36px;
     transition: all .3s linear;
     border-radius: 9px;
@@ -208,8 +208,8 @@ button {
 }
 
 button:hover {
-    border: solid 3px #02d1d810;
-    background: #02d1d8;
+    border: solid 3px #07e4e110;
+    background: #07e4e1;
     height: 36px;
     cursor: pointer;
     transform: scale(1.04);

@@ -61,7 +61,7 @@ const icons = [
     border-radius: 50%;
 }
 .icon {
-    zoom: 1.2;
+    zoom: 1.5;
     transition: all .4s linear;
     color: #02d1d8;
 }
@@ -69,7 +69,7 @@ const icons = [
 .linear:hover a .name{
     color: #02d1d8;
 }
-.linear:hover a .icon{
-    color: #02d1d8;
+.social:hover a .icon{
+    color: #52F4F0;
 }
 </style>

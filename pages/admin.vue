@@ -155,7 +155,7 @@ const navD = ref(state.value === 4)
 }
 
 #areaA {
-    border-right: solid 1px #02d1d840;
+    border-right: solid 1px #07e4e140;
     font-weight: bolder;
     text-decoration: none;
     cursor: pointer;
@@ -180,7 +180,7 @@ const navD = ref(state.value === 4)
 }
 
 .logOut {
-    border-top: solid 1px #02d1d840;
+    border-top: solid 1px #07e4e140;
 }
 
 #areaA a {
@@ -192,26 +192,26 @@ const navD = ref(state.value === 4)
     align-items: center;
     flex-wrap: wrap;
     padding: 12px;
-    border-bottom: solid 1px #02d1d840;
+    border-bottom: solid 1px #07e4e140;
     border-end-end-radius: 5px;
     border-start-end-radius: 5px;
 }
 
 #areaA a:hover {
     background-color: transparent;
-    background: linear-gradient(to right, transparent 0%, transparent  50%, #02d1d8 100%);
-    color: #02d1d8;
+    background: linear-gradient(to right, transparent 0%, transparent  50%, #07e4e1 100%);
+    color: #07e4e1;
 }
 
 #areaA a.router-link-exact-active {
-    background: linear-gradient(to bottom right, #02d1d8 0%, #02d1d8 50%, #02d1d8 100%);
+    background: linear-gradient(to bottom right, #07e4e1 0%, #07e4e1 50%, #07e4e1 100%);
     color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
 
 #areaA a.router-link-exact-active:hover {
-    background: linear-gradient(to bottom right, #02d1d8 0%, #02d1d8 50%, #02d1d8 100%);
+    background: linear-gradient(to bottom right, #07e4e1 0%, #07e4e1 50%, #07e4e1 100%);
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -219,7 +219,7 @@ const navD = ref(state.value === 4)
 
 #areaA a.router-link-exact-active:hover::after {
     background-color: var(--color-background);
-    color: #02d1d8;
+    color: #07e4e1;
     text-decoration: none;
     cursor: pointer;
 }
@@ -227,19 +227,19 @@ const navD = ref(state.value === 4)
 #areaB {
     margin: 10px;
     border-radius: 5px;
-    border: solid 1px #02d1d840;
+    border: solid 1px #07e4e140;
     overflow-x: hidden; 
     overflow-y: auto; 
 }
 
 #areaB-A {
-    border: solid 1px #02d1d840;
+    border: solid 1px #07e4e140;
     margin: 10px;
     border-radius: 5px;
 }
 
 #areaB-B {
-    border: solid 1px #02d1d840;
+    border: solid 1px #07e4e140;
     margin: 10px;
     border-radius: 5px;
 }
@@ -257,7 +257,7 @@ const navD = ref(state.value === 4)
     z-index: 1;
     height: 35px;
     font-weight: bolder;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
 }
 
@@ -266,11 +266,11 @@ const navD = ref(state.value === 4)
 }
 
 .clients span {
-    border: 1px solid #02d1d890;
+    border: 1px solid #07e4e190;
     padding: 3px 6px;
     border-radius: 5px;
-    color: #02d1d8;
-    background-color: #02d1d830;
+    color: #07e4e1;
+    background-color: #07e4e130;
     margin-left: 3px;
 }
 
@@ -286,7 +286,7 @@ const navD = ref(state.value === 4)
 .notifications:hover {
     padding: 4px 5px;
     border-radius: 5px;
-    color: #02d1d8;
+    color: #07e4e1;
     background-color: #fff;
 }
 
@@ -303,7 +303,7 @@ const navD = ref(state.value === 4)
     height: 35px;
     font-weight: bolder;
     margin-bottom: 1rem;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
 }
 
@@ -312,17 +312,17 @@ const navD = ref(state.value === 4)
 }
 
 .users-conf span {
-    border: 1px solid #02d1d890;
+    border: 1px solid #07e4e190;
     padding: 8px;
     border-radius: 5px;
-    color: #02d1d8;
-    background-color: #02d1d830;
+    color: #07e4e1;
+    background-color: #07e4e130;
     margin-left: 3px;
 }
 
 .filter {
-    border: solid 1px #02d1d890;
-    background-color: #02d1d830;
+    border: solid 1px #07e4e190;
+    background-color: #07e4e130;
     padding: 6px 7px;
     margin: 9px 35px;
     border-radius: 5px;
@@ -334,7 +334,7 @@ const navD = ref(state.value === 4)
     border: solid 1px #fff;
     padding: 6px 7px;
     border-radius: 5px;
-    color: #02d1d8;
+    color: #07e4e1;
     background-color: #fff;
 }
 
@@ -365,8 +365,8 @@ const navD = ref(state.value === 4)
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
@@ -385,14 +385,14 @@ const navD = ref(state.value === 4)
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
 .whats .icon,
 .color .icon {
-    color: #02d1d890;
+    color: #07e4e190;
     zoom: 1;
 } 
 
@@ -411,8 +411,8 @@ const navD = ref(state.value === 4)
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
@@ -431,14 +431,14 @@ const navD = ref(state.value === 4)
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
 .whats .icon,
 .color .icon {
-    color: #02d1d890;
+    color: #07e4e190;
     zoom: 1;
 }
 
@@ -464,7 +464,7 @@ const navD = ref(state.value === 4)
     flex-wrap: wrap;
     height: 55px;
     width: 55px;
-    background: linear-gradient(to bottom right, #02d1d8 0%, #02d1d870 50%, #00f2ff90 100%);
+    background: linear-gradient(to bottom right, #07e4e1 0%, #07e4e170 50%, #00f2ff90 100%);
     margin: 1.5rem;
     border-radius: 7px;
     z-index: 10;
@@ -505,7 +505,7 @@ const navD = ref(state.value === 4)
     bottom: 0px;
     height: calc(100% - 0px);
     width: calc(100% - 100px);
-    background: linear-gradient(to bottom right, #02d1d8 0%, #02d1d880 50%, #00f2ff90 100%);
+    background: linear-gradient(to bottom right, #07e4e1 0%, #07e4e180 50%, #00f2ff90 100%);
     backdrop-filter: blur(5px);
     z-index: 1004;
 
@@ -515,7 +515,7 @@ const navD = ref(state.value === 4)
     height: 300px;
     width: 300px;
     border-radius: 7px;
-    border: #02d1d8 1px solid;
+    border: #07e4e1 1px solid;
     opacity: 1;
     z-index: 100;
 
@@ -550,7 +550,7 @@ const navD = ref(state.value === 4)
     margin: .2rem 1.5rem;
     font-weight: 700;
     letter-spacing: 1.5px;
-    color: #02d1d8;
+    color: #07e4e1;
 
 }
 
@@ -582,7 +582,7 @@ const navD = ref(state.value === 4)
     flex-wrap: wrap;
     height: 100px;
     width: 100px;
-    box-shadow: 1px 7px 20px #02d1d8;
+    box-shadow: 1px 7px 20px #07e4e1;
     margin: 1.5rem;
     border-radius: 7px;
 }
@@ -591,7 +591,7 @@ const navD = ref(state.value === 4)
     height: 100px;
     width: 100px;
     border-radius: 7px;
-    border: #02d1d8 2px solid;
+    border: #07e4e1 2px solid;
     opacity: 1;
 
 }
@@ -606,7 +606,7 @@ const navD = ref(state.value === 4)
 }
 
 .link:hover {
-    color: #02d1d8;
+    color: #07e4e1;
 }
 
 .section-title {
@@ -670,7 +670,7 @@ const navD = ref(state.value === 4)
     padding: 5px;
     border-radius: 8px;
     margin: 1px auto;
-    border: solid .1px #02d1d850;
+    border: solid .1px #07e4e150;
 }
 
 .menu-square div .icon {
@@ -712,8 +712,8 @@ const navD = ref(state.value === 4)
     width: 100%;
     padding: 6px 2px 2px 2px;
     margin: 5px auto;
-    border: solid 1px #02d1d810;
-    border-bottom: solid .1px #02d1d840;
+    border: solid 1px #07e4e110;
+    border-bottom: solid .1px #07e4e140;
     border-top: solid .2px transparent;
 }
 
@@ -739,8 +739,8 @@ const navD = ref(state.value === 4)
 
 .menu-button:hover {
     cursor: pointer;
-    border-bottom: solid .2px #02d1d8;
-    background-color: #02d1d810;
+    border-bottom: solid .2px #07e4e1;
+    background-color: #07e4e110;
 }
 
 
@@ -755,8 +755,8 @@ const navD = ref(state.value === 4)
     width: 250px;
     margin-left: -125px;
     transition: all .4s linear;
-    border: solid .1px #02d1d870;
-    box-shadow: 0 0px 5px #02d1d810;
+    border: solid .1px #07e4e170;
+    box-shadow: 0 0px 5px #07e4e110;
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
@@ -778,8 +778,8 @@ const navD = ref(state.value === 4)
 }
 
 .logout:hover {
-    background-color: #02d1d810;
-    color: #02d1d880;
+    background-color: #07e4e110;
+    color: #07e4e180;
     cursor: pointer;
 }
 
@@ -799,7 +799,7 @@ const navD = ref(state.value === 4)
     top: 20px;
     margin: 16px auto;
     box-shadow: 0 0px 5px #00f2ff10;
-    border: solid 1px #02d1d840;
+    border: solid 1px #07e4e140;
     width: 90%;
     height: 50px;
     border-radius: 10px;
@@ -816,9 +816,9 @@ const navD = ref(state.value === 4)
 }
 
 .nav a.router-link-exact-active {
-    background: linear-gradient(to bottom right, #02d1d810 0%, #02d1d810 50%, #02d1d810 100%);
+    background: linear-gradient(to bottom right, #07e4e110 0%, #07e4e110 50%, #07e4e110 100%);
     margin: 1px 2px 0 2px;
-    color: #02d1d8;
+    color: #07e4e1;
     padding: 9px 12px 10px 9px;
     border-radius: 9px;
     text-decoration: none;
@@ -828,9 +828,9 @@ const navD = ref(state.value === 4)
 .nav a.router-link-exact-active:hover {
     margin: 1px 2px 0 2px;
     padding: 9px 12px 10px 9px;
-    color: #02d1d8;
-    background: linear-gradient(to bottom right, #02d1d810 0%, #02d1d810 50%, #02d1d810 100%);
-    color: #02d1d8;
+    color: #07e4e1;
+    background: linear-gradient(to bottom right, #07e4e110 0%, #07e4e110 50%, #07e4e110 100%);
+    color: #07e4e1;
     border-radius: 9px;
     text-decoration: none;
     cursor: pointer;
@@ -841,7 +841,7 @@ const navD = ref(state.value === 4)
     top: 60px;
     left: 20px;
     background-color: var(--color-background);
-    color: #02d1d8;
+    color: #07e4e1;
     border-radius: 9px;
     text-decoration: none;
     cursor: pointer;
@@ -850,7 +850,7 @@ const navD = ref(state.value === 4)
 
 .nav a:hover {
     background-color: transparent;
-    color: #02d1d8;
+    color: #07e4e1;
 }
 
 
@@ -870,8 +870,8 @@ const navD = ref(state.value === 4)
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px);
 }
 
@@ -890,14 +890,14 @@ const navD = ref(state.value === 4)
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
 .whats .icon,
 .color .icon {
-    color: #02d1d890;
+    color: #07e4e190;
     zoom: 1;
 }
 </style>

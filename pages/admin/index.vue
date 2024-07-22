@@ -125,10 +125,10 @@ state.value = state.value
     z-index: 1;
     height: 40px;
     font-weight: bolder;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
-    border-bottom: solid 1px #02d1d840;
-    border-right: solid 1px #02d1d840;
+    border-bottom: solid 1px #07e4e140;
+    border-right: solid 1px #07e4e140;
 }
 
 .clients {
@@ -136,11 +136,11 @@ state.value = state.value
 }
 
 .clients span {
-    border: 1px solid #02d1d890;
+    border: 1px solid #07e4e190;
     padding: 3px 6px;
     border-radius: 8px;
-    color: #02d1d8;
-    background-color: #02d1d830;
+    color: #07e4e1;
+    background-color: #07e4e130;
     margin-left: 3px;
 }
 
@@ -156,7 +156,7 @@ state.value = state.value
 .notifications:hover {
     padding: 4px 5px;
     border-radius: 8px;
-    color: #02d1d8;
+    color: #07e4e1;
     background-color: #fff;
 }
 
@@ -173,10 +173,10 @@ state.value = state.value
     height: 35px;
     font-weight: bolder;
     margin-bottom: 1rem;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
-    border-bottom: solid 1px #02d1d840;
-        border-right: solid 1px #02d1d840;
+    border-bottom: solid 1px #07e4e140;
+        border-right: solid 1px #07e4e140;
 }
 
 .users-conf {
@@ -184,17 +184,17 @@ state.value = state.value
 }
 
 .users-conf span {
-    border: 1px solid #02d1d890;
+    border: 1px solid #07e4e190;
     padding: 8px;
     border-radius: 8px;
-    color: #02d1d8;
-    background-color: #02d1d830;
+    color: #07e4e1;
+    background-color: #07e4e130;
     margin-left: 3px;
 }
 
 .filter {
-    border: solid 1px #02d1d890;
-    background-color: #02d1d830;
+    border: solid 1px #07e4e190;
+    background-color: #07e4e130;
     padding: 6px 7px;
     margin: 9px 35px;
     border-radius: 8px;
@@ -206,7 +206,7 @@ state.value = state.value
     border: solid 1px #fff;
     padding: 6px 7px;
     border-radius: 8px;
-    color: #02d1d8;
+    color: #07e4e1;
     background-color: #fff;
 }
 
@@ -237,8 +237,8 @@ state.value = state.value
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
@@ -257,14 +257,14 @@ state.value = state.value
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
 .whats .icon,
 .color .icon {
-    color: #02d1d890;
+    color: #07e4e190;
     zoom: 1;
 }
 </style>

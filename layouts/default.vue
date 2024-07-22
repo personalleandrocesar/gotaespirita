@@ -89,7 +89,7 @@ const navD = ref(state.value === 4)
                     <NuxtLink :to="`/p`">
                         <Icon name='solar:folder-bold' />
                     </NuxtLink>
-                    
+
                 </div>
             </div>
 
@@ -123,13 +123,13 @@ const navD = ref(state.value === 4)
 
             <div>
                 <div class="nav-bottom">
-                    <NuxtLink :to="`/users/${route.params.id}`">
+                    <NuxtLink :to="`/`">
                         <Icon name='solar:home-2-bold' />
                     </NuxtLink>
-                    <NuxtLink :to="`/users/${route.params.id}/treinos`">
+                    <NuxtLink :to="`/p`">
                         <Icon name='solar:folder-bold' />
                     </NuxtLink>
-                    
+
                 </div>
             </div>
 
@@ -142,7 +142,7 @@ const navD = ref(state.value === 4)
             </div>
         </div>
         <div class="head-logo" id="sobre">
-            
+
             <!-- Hístórico -->
             <NuxtLink :to="`/users/${route.params.id}/treinos`" class="menu-button">
                 <div>
@@ -192,11 +192,6 @@ const navD = ref(state.value === 4)
 
             <!--  -->
 
-            <!-- Botão Logout -->
-            <NuxtLink to="/" class="logout" @click="logOff()">
-                LOUGOUT
-                <Icon name="solar:logout-3-bold" />
-            </NuxtLink>
         </div>
     </div>
 </template>
@@ -205,7 +200,7 @@ const navD = ref(state.value === 4)
 .head-logo {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: flex-start;
     z-index: 1;
     flex-wrap: wrap;
@@ -361,11 +356,11 @@ const navD = ref(state.value === 4)
 }
 
 .link:hover {
-    color: #02d1d8;
+    color: #52F4F0;
 }
 
 .section-title {
-    text-align: left;
+    text-align: right;
     margin: 10px 1.5rem;
     font-weight: 800;
 }
@@ -492,7 +487,7 @@ const navD = ref(state.value === 4)
 
 .menu-button:hover {
     cursor: pointer;
-    border-bottom: solid .2px #02d1d8;
+    border-bottom: solid .2px #52F4F0;
     background-color: #02d1d810;
 }
 
@@ -563,32 +558,27 @@ const navD = ref(state.value === 4)
 
 .nav a {
     margin: 0 2px;
-    padding: 12.2px 8px 12px 12px;
-    padding: 12.2px 8px 9px 8px;
-    padding: 13px 14.5px 14.5px 14.5px;
+    padding: 13px;
     text-decoration: none;
     cursor: pointer;
-    border-radius: 9px;
+    border-radius: 70%;
 }
 
 .nav a.router-link-exact-active {
     background: linear-gradient(to bottom right, #02d1d810 0%, #02d1d810 50%, #02d1d810 100%);
     margin: 0 2px;
     color: #02d1d8;
-    padding: 13px 14.5px 14.5px 14.5px;
-
-    border-radius: 9px;
+    border-radius: 50%;
     text-decoration: none;
     cursor: pointer;
 }
 
 .nav a.router-link-exact-active:hover {
     margin: 0 2px;
-    padding: 13px 14.5px 14.5px 14.5px;
     color: #02d1d8;
     background: linear-gradient(to bottom right, #02d1d810 0%, #02d1d810 50%, #02d1d810 100%);
-    color: #02d1d8;
-    border-radius: 9px;
+    color: #52F4F0;
+    border-radius: 50%;
     text-decoration: none;
     cursor: pointer;
 }
@@ -606,7 +596,7 @@ const navD = ref(state.value === 4)
 
 .nav a:hover {
     background-color: transparent;
-    color: #02d1d8;
+    color: #52F4F0;
 }
 
 .color {

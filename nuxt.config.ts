@@ -12,8 +12,8 @@ export default defineNuxtConfig({
       link: [
       ],
       meta: [
-        { name: 'theme-color', content: '#02d1d8' },
-        { name: 'theme-color', content: '#02d1d8' },
+        { name: 'theme-color', content: '#07e4e1' },
+        { name: 'theme-color', content: '#07e4e1' },
         { name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" }
       ],
       noscript: [

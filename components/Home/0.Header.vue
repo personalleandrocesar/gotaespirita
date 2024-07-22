@@ -39,7 +39,7 @@
     line-height: 1.5rem;
     font-weight: 900;
     letter-spacing: 1.5px;
-    color: #02d1d8;
+    color: #07e4e1;
 }   
 
 .head-hello p {

@@ -87,10 +87,10 @@ const icons = [
     flex-wrap: nowrap;
 }
 .linear:hover a .title{
-    color: #02d1d8;
+    color: #07e4e1;
 }
 .linear:hover a .icon{
-    color: #02d1d8;
+    color: #07e4e1;
 }
 .linear:hover a .underline{
     border-bottom: dashed 1px #718096;

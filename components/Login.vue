@@ -224,19 +224,19 @@ a {
     cursor: pointer;
 }
 .link   a:hover { 
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     cursor: pointer;
 }
 
 
 .aActive {
-    border-bottom: solid 2px #02d1d8;
-    color: #02d1d8;
+    border-bottom: solid 2px #07e4e1;
+    color: #07e4e1;
     
 }
 .aActivee {
-    border-bottom: solid 2px #02d1d8;
-    color: #02d1d8;
+    border-bottom: solid 2px #07e4e1;
+    color: #07e4e1;
     
 }
 .head-logo {
@@ -279,7 +279,7 @@ h3 {
   flex-wrap: wrap;
   height: 100px;
   width: 100px;
-  box-shadow: 0px 7px 20px #02d1d8;
+  box-shadow: 0px 7px 20px #07e4e1;
   margin: 7rem 0 1.5rem 0;
   border-radius: 8px;
   z-index: 10;
@@ -289,7 +289,7 @@ h3 {
   height: 100px;
   width: 100px;
   border-radius: 8px;
-  border: #02d1d8 2px solid;
+  border: #07e4e1 2px solid;
   z-index: 100;
   opacity: 1;
   
@@ -299,8 +299,8 @@ h3 {
 .button-client {
   margin: 2rem 1.5rem;
   transition: all .4s linear;
-  border: solid 1px #02d1d810;
-  box-shadow: 0 0px 5px #02d1d810;
+  border: solid 1px #07e4e110;
+  box-shadow: 0 0px 5px #07e4e110;
   border-radius: 8px;
   cursor: pointer;
   width: 160px;
@@ -317,8 +317,8 @@ h3 {
 }
 
 .button-client:hover {
-  background-color: #02d1d810;
-  color: #02d1d880;
+  background-color: #07e4e110;
+  color: #07e4e180;
 }
 
 .button-client .icon {
@@ -328,7 +328,7 @@ h3 {
 }
 
 .button-client:hover .icon {
-  color: #02d1d880;
+  color: #07e4e180;
 }
 
 .head-name {
@@ -344,7 +344,7 @@ h3 {
   line-height: 1.5rem;
   margin: .2rem 1.5rem;
   font-weight: 700;
-  color: #02d1d8;
+  color: #07e4e1;
 }
 
 
@@ -363,8 +363,8 @@ h3 {
   border-radius: 9px;
   cursor: pointer;
   z-index: 100;
-  border: solid 1px #02d1d810;
-  box-shadow: 0 0px 5px #02d1d840;
+  border: solid 1px #07e4e110;
+  box-shadow: 0 0px 5px #07e4e140;
   backdrop-filter: blur(100px)
 }
 .whats {
@@ -382,12 +382,12 @@ h3 {
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 .whats .icon, .color .icon {
-  color: #02d1d890;
+  color: #07e4e190;
   zoom: 1;
 }
 
@@ -429,7 +429,7 @@ h3 {
 input {
   margin: .5rem auto;
   transition: all .4s linear;
-  border-bottom: solid 2px #02d1d8;
+  border-bottom: solid 2px #07e4e1;
   text-align: left;
   line-height: 18px;
   font-weight: 600;
@@ -447,22 +447,22 @@ input {
 }
 
 input:focus-visible {
-  border: solid 1px #02d1d8;
-  background-color: #02d1d810;
+  border: solid 1px #07e4e1;
+  background-color: #07e4e110;
 }
 
 input:active {
-  border-color: #02d1d880;
+  border-color: #07e4e180;
 }
 
 input:hover {
-  background-color: #02d1d810;
+  background-color: #07e4e110;
 }
 
 
 input:focus {
   border: 0 none;
-  border-bottom: solid 2px #02d1d8;
+  border-bottom: solid 2px #07e4e1;
   outline: 0;
 }
 
@@ -480,7 +480,7 @@ h4:nth-child(1) {
 
 .login {
   transition: all .4s linear;
-  border: solid 2px #02d1d8;
+  border: solid 2px #07e4e1;
   cursor: pointer;
   width: 140px;
   text-align: center;
@@ -507,7 +507,7 @@ h4:nth-child(1) {
 
 .login:hover {
   cursor: pointer;
-  background-color: #02d1d8;
+  background-color: #07e4e1;
   color: #fff;
 }
 
@@ -528,11 +528,11 @@ h4:nth-child(1) {
   bottom: 10px;
   width: 80%;
   left: 50%;
-  background-color: #02d1d8 ;
+  background-color: #07e4e1 ;
   color: #fff;
   margin-left: -40%;
   font-weight: 900;
-  border: solid 1px #02d1d810;
+  border: solid 1px #07e4e110;
   z-index: 10000;
 }
 
@@ -546,8 +546,8 @@ h4:nth-child(1) {
 .button-pop {
   margin: 7px auto 0 auto;
   transition: all .4s linear;
-  border: solid 1px #02d1d8;
-  box-shadow: 0 0px 5px #02d1d810;
+  border: solid 1px #07e4e1;
+  box-shadow: 0 0px 5px #07e4e110;
   border-radius: 8px;
   cursor: pointer;
   width: 50%;

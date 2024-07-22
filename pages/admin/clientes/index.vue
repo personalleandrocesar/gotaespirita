@@ -702,7 +702,7 @@ async function submitUpdate() {
 
 .login:hover {
     cursor: pointer;
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
 }
 
@@ -744,7 +744,7 @@ async function submitUpdate() {
 
 .inputs .terms {
     text-decoration: underline;
-    color: #02d1d8;
+    color: #07e4e1;
     height: 15px;
     cursor: pointer;
 }
@@ -777,7 +777,7 @@ async function submitUpdate() {
 
 input {
     transition: all .4s linear;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     text-align: left;
     width: 160px;
     font-weight: 600;
@@ -804,21 +804,21 @@ input {
 }
 
 input:focus-visible {
-    border: solid 1px #02d1d8;
+    border: solid 1px #07e4e1;
 }
 
 input:active {
-    border-color: #02d1d880;
+    border-color: #07e4e180;
 }
 
 input:hover {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 
 input:focus {
     border: 0 none;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     outline: 0;
 }
 
@@ -840,7 +840,7 @@ h4:nth-child(1) {
     border: 0;
     color: inherit;
     background-color: transparent;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     border-radius: 5px;
     cursor: pointer;
     width: 160px;
@@ -852,25 +852,25 @@ h4:nth-child(1) {
 
 .select:focus {
     border: 0 none;
-    border-bottom: solid 2px #02d1d8;
+    border-bottom: solid 2px #07e4e1;
     outline: 0;
 }
 
 .select:focus-visible {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 .select:active {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 .select:hover {
-    background-color: #02d1d810;
+    background-color: #07e4e110;
 }
 
 .login {
     transition: all .4s linear;
-    border: solid 2px #02d1d8;
+    border: solid 2px #07e4e1;
     cursor: pointer;
     width: 140px;
     text-align: center;
@@ -897,7 +897,7 @@ h4:nth-child(1) {
 
 .login:hover {
     cursor: pointer;
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     color: #fff;
 }
 
@@ -921,10 +921,10 @@ h4:nth-child(1) {
     z-index: 1;
     height: 40px;
     font-weight: bolder;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
-    border-bottom: solid 1px #02d1d840;
-    border-right: solid 1px #02d1d840;
+    border-bottom: solid 1px #07e4e140;
+    border-right: solid 1px #07e4e140;
 }
 
 .clients {
@@ -932,11 +932,11 @@ h4:nth-child(1) {
 }
 
 .clients span {
-    border: 1px solid #02d1d890;
+    border: 1px solid #07e4e190;
     padding: 3px 6px;
     border-radius: 8px;
-    color: #02d1d8;
-    background-color: #02d1d830;
+    color: #07e4e1;
+    background-color: #07e4e130;
     margin-left: 3px;
 }
 
@@ -952,7 +952,7 @@ h4:nth-child(1) {
 .notifications:hover {
     padding: 4px 5px;
     border-radius: 8px;
-    color: #02d1d8;
+    color: #07e4e1;
     background-color: #fff;
 }
 
@@ -968,10 +968,10 @@ h4:nth-child(1) {
     z-index: 1;
     height: 50px;
     font-weight: bolder;
-    border-bottom: .10px solid #02d1d840;
+    border-bottom: .10px solid #07e4e140;
     backdrop-filter: blur(45px);
-    border-bottom: solid 1px #02d1d840;
-        border-right: solid 1px #02d1d840;
+    border-bottom: solid 1px #07e4e140;
+        border-right: solid 1px #07e4e140;
 }
 
 .users-list {
@@ -1001,8 +1001,8 @@ h4:nth-child(1) {
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
@@ -1021,18 +1021,18 @@ h4:nth-child(1) {
     border-radius: 9px;
     cursor: pointer;
     z-index: 100;
-    border: solid 1px #02d1d810;
-    box-shadow: 0 0px 5px #02d1d840;
+    border: solid 1px #07e4e110;
+    box-shadow: 0 0px 5px #07e4e140;
     backdrop-filter: blur(100px)
 }
 
 .whats .icon,
 .color .icon {
-    color: #02d1d890;
+    color: #07e4e190;
     zoom: 1;
 }
 .subscriberOk {
-    background-color: #02d1d8;
+    background-color: #07e4e1;
     text-shadow: 2px 2px 2px #111;
     display: flex;
     flex-direction: column;
@@ -1048,7 +1048,7 @@ h4:nth-child(1) {
     color: #fff;
     margin-left: -40%;
     font-weight: 900;
-    border: solid 1px #02d1d810;
+    border: solid 1px #07e4e110;
     z-index: 10000;
 }
 #customers {
@@ -1350,7 +1350,7 @@ input {
 }
 
 .title-user:hover {
-    background-color: #02d1d860;
+    background-color: #07e4e160;
 }
 
 .title-user img {

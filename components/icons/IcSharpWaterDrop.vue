@@ -11,7 +11,7 @@ export default {
 </script>                                       
 <style scoped>
 svg {
-  color: #02d1d8;
+  color: #07e4e1;
   margin: 2rem auto .5rem auto;
   height: 40px;                   
   width: 40px;
